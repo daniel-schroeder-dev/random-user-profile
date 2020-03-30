@@ -1,0 +1,23 @@
+{
+  "name": "random-user-profile",
+  "version": "1.0.0",
+  "description": "Generate a random user and their profile will appear on the card.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-schroeder-dev/random-user-profile.git"
+  },
+  "keywords": [
+    "fetch",
+    "javascript"
+  ],
+  "author": "Daniel Schroeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniel-schroeder-dev/random-user-profile/issues"
+  },
+  "homepage": "https://github.com/daniel-schroeder-dev/random-user-profile#readme"
+}
