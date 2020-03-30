@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/daniel-schroeder-dev/random-user-profile/issues"
   },
-  "homepage": "https://github.com/daniel-schroeder-dev/random-user-profile#readme"
+  "homepage": "https://github.com/daniel-schroeder-dev/random-user-profile#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
 }
