@@ -12,13 +12,15 @@ function fetchAndUpdateUserInformation() {
   
   fetch(url)
     .then(res => res.json())
-    .then(({ results }) => {
-      const user = results[0];
-      img.src = user.picture.large;
-      nameSpan.textContent = user.name.first;
-      ageSpan.textContent = user.dob.age;
-      locationSpan.textContent = user.location.country;
-    })
+    .then(updateUserInformation)
     .catch(console.error)
 
+}
+
+function updateUserInformation({ results }) {
+  const user = results[0];
+  img.src = user.picture.large;
+  nameSpan.textContent = user.name.first;
+  ageSpan.textContent = user.dob.age;
+  locationSpan.textContent = user.location.country;
 }
