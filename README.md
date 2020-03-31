@@ -1,6 +1,6 @@
 # Random User Profile
 
-Generate random user profiles that will appear in the card.
+Generate random user profiles.
 
 ## Technical Notes
 
