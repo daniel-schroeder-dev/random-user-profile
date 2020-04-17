@@ -13,8 +13,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  padding: 72px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +22,7 @@ body {
 main {
   /*border: 1px solid white;*/
   margin: 24px;
-  width: 700px;
+  /*width: 700px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,10 +32,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 450px;
-  height: 200px;
+  width: 95%;
+  max-width: 400px;
+  height: 150px;
   background-color: #eb524a;
-  padding: 24px;
+  padding: 12px;
   color: #fff;
   border-radius: 8px;
 }
@@ -47,6 +47,7 @@ main {
 
 .user-profile-card__img {
   border-radius: 50%;
+  width: 70px;
 }
 
 .user-profile-card__description {
@@ -65,4 +66,16 @@ button {
   text-align: center;
   background-color: #ffbe44;
   color: #c63535;
+}
+
+@media all and (min-width: 400px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .user-profile-card__img {
+    width: 80px;
+  }
+
 }
